@@ -1,0 +1,76 @@
+//Assignment1
+
+#include <stdio.h>
+
+int main() {
+  printf("I\n");
+  printf(" Want\n");
+  printf("    to be a \n");
+  printf("        Programmer\n");
+  return 0;
+}
+
+//Assignment2
+
+#include <stdio.h>
+
+int main() {
+  int a ,b,sum;
+  printf("Input first number: ");
+  scanf("%d", &a);
+  printf("Input second number: ");
+  scanf("%d", &b);
+
+  sum=a+b;
+  printf("Sum of %d and %d is %d", a,b, sum);
+  return 0;
+}
+
+//Assignment3
+
+#include <stdio.h>
+
+int main() {
+  int a ,b,temp;
+
+  printf("Input first number: ");
+  scanf("%d",&a);
+  printf("Input first number: ");
+  scanf("%d",&b);
+
+  temp=b;
+  b=a;
+  a=temp;
+
+  printf("Updated first number: %d\n",a);
+  printf("Updated second number: %d\n",b);
+
+  return 0;
+}
+
+
+
+
+//Assignment4
+
+#include <stdio.h>
+
+int main() {
+  int a,b,c,d,e,total,avg;
+
+  printf("Enter marks of five subjects: \n");
+
+  scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+
+  total= a+b+c+d+e;
+  avg=total/5;
+
+  printf("Total = %d\n",total);
+  printf("Average = %d\n",avg);
+
+
+
+  return 0;
+}
+
+
